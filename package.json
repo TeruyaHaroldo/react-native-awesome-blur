@@ -1,0 +1,17 @@
+{
+  "name": "react-native-awesome-blur",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "FalaFreud Inc.",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.51.0"
+  }
+}
