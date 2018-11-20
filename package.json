@@ -9,6 +9,10 @@
   "keywords": [
     "react-native"
   ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/TeruyaHaroldo/react-native-awesome-blur.git"
+    },
   "author": "FalaFreud Inc.",
   "license": "MIT",
   "peerDependencies": {
