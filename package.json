@@ -1,6 +1,6 @@
 {
   "name": "react-native-awesome-blur",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
   "author": "FalaFreud Inc.",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.51.0"
+    "react-native": "^0.51.2"
   }
 }

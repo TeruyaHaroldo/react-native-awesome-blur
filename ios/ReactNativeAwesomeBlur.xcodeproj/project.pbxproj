@@ -25,10 +25,9 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libReactNativeAwesomeBlur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeAwesomeBlur.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CA5F6DE21A591D600CF8279 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C10DB5021A6CCF0005CDBC5 /* ReactNativeAwesomeBlur-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeAwesomeBlur-Bridging-Header.h"; sourceTree = "<group>"; };
 		5CA5F6E421A5930C00CF8279 /* BlurViewManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurViewManagerBridge.m; sourceTree = "<group>"; };
 		5CA5F6E521A5930C00CF8279 /* BlurViewManagerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurViewManagerModule.swift; sourceTree = "<group>"; };
-		5CA5F6EA21A593AA00CF8279 /* ReactNativeAwesomeBlur-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeAwesomeBlur-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,20 +52,19 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				5CA5F6EA21A593AA00CF8279 /* ReactNativeAwesomeBlur-Bridging-Header.h */,
-				5CA5F6E421A5930C00CF8279 /* BlurViewManagerBridge.m */,
-				5CA5F6E521A5930C00CF8279 /* BlurViewManagerModule.swift */,
+				5C10DB6021A6D226005CDBC5 /* blur */,
+				5C10DB5021A6CCF0005CDBC5 /* ReactNativeAwesomeBlur-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				5CA5F6DD21A591D600CF8279 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5CA5F6DD21A591D600CF8279 /* Frameworks */ = {
+		5C10DB6021A6D226005CDBC5 /* blur */ = {
 			isa = PBXGroup;
 			children = (
-				5CA5F6DE21A591D600CF8279 /* libReact.a */,
+				5CA5F6E421A5930C00CF8279 /* BlurViewManagerBridge.m */,
+				5CA5F6E521A5930C00CF8279 /* BlurViewManagerModule.swift */,
 			);
-			name = Frameworks;
+			path = blur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
